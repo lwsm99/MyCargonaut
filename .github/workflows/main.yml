@@ -12,16 +12,6 @@ jobs:
     #  run: (cd frontend && npm ci)
     # - name: Run tests
     #  run: (cd frontend && npm run test:unit)
-      
-  # test-backend:
-    # name: Backend Testing
-    # runs-on: ubuntu-latest
-    # steps:
-    # - uses: actions/checkout@v2
-    # - name: Install dependencies
-    #   run: (cd backend && npm ci)
-    # - name: Run tests
-    #   run: (cd backend && ???)
         
   lint:
     name: Lint & fix files
