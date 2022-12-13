@@ -34,7 +34,10 @@
 
 <script>
 export default {
-  name: "offerListView"
+  name: "offerListView",
+  created () {
+    document.title = "Alle Angebote";
+  }
 }
 </script>
 

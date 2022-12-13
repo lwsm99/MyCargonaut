@@ -54,7 +54,10 @@
 
 <script>
 export default {
-  name: "homeView"
+  name: "homeView",
+  created () {
+    document.title = "myCargonaut";
+  }
 }
 </script>
 

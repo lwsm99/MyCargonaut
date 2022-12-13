@@ -4,7 +4,10 @@
 
 <script>
 export default {
-  name: "trackingView"
+  name: "trackingView",
+  created () {
+    document.title = "Tracking";
+  }
 }
 </script>
 

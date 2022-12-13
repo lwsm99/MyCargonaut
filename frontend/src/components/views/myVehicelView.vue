@@ -4,7 +4,10 @@
 
 <script>
 export default {
-  name: "myVehicelView"
+  name: "myVehicelView",
+  created () {
+    document.title = "Meine Fahrzeuge";
+  }
 }
 </script>
 
