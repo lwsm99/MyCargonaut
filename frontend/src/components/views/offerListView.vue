@@ -1,5 +1,5 @@
 <template>
-<h1>//Hier die Übersichtsliste</h1>
+<h1 class="text-center mb-5 mt-5">Transportangebote</h1>
 <section>
   <div class="offer-card">
     <div class="row d-flex justify-content-center align-items-center">
