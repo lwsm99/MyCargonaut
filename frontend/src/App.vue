@@ -32,4 +32,7 @@ section{
 h1{
   color: #565656;
 }
+section{
+  padding: 1rem;
+}
 </style>
