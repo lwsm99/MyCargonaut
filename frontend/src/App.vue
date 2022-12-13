@@ -1,5 +1,7 @@
 <template>
+  <!--Here is the content of each component-->
  <router-view></router-view>
+  <!--Navbar component under router-view. Navbar is sticky bottom-->
   <navbar></navbar>
 </template>
 
