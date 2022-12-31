@@ -1,11 +1,9 @@
 <template>
-<h1>//Profile</h1>
+  <Profile/>
 </template>
 
-<script>
-export default {
-  name: "profileView"
-}
+<script setup>
+import Profile from '../Profile.vue'
 </script>
 
 <style scoped>
