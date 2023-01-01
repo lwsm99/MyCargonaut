@@ -15,11 +15,12 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 body{
   background-color: #d3d3d3;
 }
 #app {
-  font-family: "Arial",serif;
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 60px;
 }
 section{
