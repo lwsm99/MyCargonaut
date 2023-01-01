@@ -19,7 +19,7 @@
             <v-row class="bottom-row">
                 <v-col lg="6" sm="12" xs="12">
                     <v-card class="ma-4" color="grey" rounded="4" width="90%" elevation="0" justify="center" align="center">
-                        <h2 class="my-4">Meine Kommentare</h2>
+                        <h2 class="my-4">Bewertungen</h2>
                         <!-- TODO: as many rows as comments -->
                         <v-row class="mx-4 mb-4" align="center" justify="center">
                             <v-col lg="2">
@@ -40,7 +40,7 @@
                 </v-col>
                 <v-col lg="6" sm="12" xs="12">
                     <v-card class="ma-4" color="grey" rounded="4" width="90%" elevation="0">
-                        <h2 class="my-4">Meine Autos</h2>
+                        <h2 class="my-4">Meine Fahrzeuge</h2>
                         <v-row>
                             <v-col lg="4">
                                 <v-img

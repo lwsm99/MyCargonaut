@@ -6,6 +6,7 @@ import trackingView from "@/components/views/trackingView";
 import myVehicelView from "@/components/views/myVehicelView";
 import offerListView from "@/components/views/offerListView";
 import createOfferView from "@/components/views/createOfferView";
+import loginAndRegister from "@/components/views/loginAndRegisterView";
 
 
 const routes =[
@@ -15,6 +16,7 @@ const routes =[
     {path: "/myVehicels", component: myVehicelView},
     {path: "/offers", component: offerListView},
     {path: "/createoffer", component: createOfferView},
+    {path: "/login", component: loginAndRegister},
 ]
 const router = createRouter({
     history: createWebHistory(),

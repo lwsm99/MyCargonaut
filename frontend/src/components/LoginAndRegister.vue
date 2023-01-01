@@ -1,10 +1,9 @@
 <template>
-<h1>//Hier das Tracking</h1>
+    <v-container></v-container>
 </template>
 
 <script setup>
 </script>
 
 <style scoped>
-
 </style>
