@@ -1,8 +1,9 @@
 <template>
-<h1>//Hier das Tracking</h1>
+    <Tracking/>
 </template>
 
 <script setup>
+import Tracking from '../Tracking.vue';
 </script>
 
 <style scoped>
