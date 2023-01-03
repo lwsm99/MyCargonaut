@@ -26,14 +26,9 @@
   </Transition>
 </template>
 
-<script>
-export default {
-  // eslint-disable-next-line vue/multi-word-component-names
-  name: "Modal",
-  props: {
-    show: Boolean
-  }
-}
+<script setup>
+import { ref } from 'vue'
+const show = ref(false)
 </script>
 
 <style>

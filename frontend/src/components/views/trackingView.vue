@@ -1,11 +1,9 @@
 <template>
-<h1>//Hier das Tracking</h1>
+    <Tracking/>
 </template>
 
-<script>
-export default {
-  name: "trackingView"
-}
+<script setup>
+import Tracking from '../Tracking.vue';
 </script>
 
 <style scoped>

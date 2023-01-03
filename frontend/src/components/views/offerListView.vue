@@ -1,11 +1,9 @@
 <template>
-<h1>//Hier die Übersichtsliste</h1>
+    <Offers/>
 </template>
 
-<script>
-export default {
-  name: "offerListView"
-}
+<script setup>
+import Offers from '../Offers.vue';
 </script>
 
 <style scoped>
