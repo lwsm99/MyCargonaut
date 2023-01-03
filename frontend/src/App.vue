@@ -1,19 +1,27 @@
 <template>
+  <!--Here is the content of each component-->
  <router-view></router-view>
-  <Navbar/>
+  <!--Navbar component under router-view. Navbar is sticky bottom-->
+  <navbar></navbar>
 </template>
 
-<script setup>
+<script>
 import Navbar from "@/components/navbar";
+
+export default {
+  name: 'App',
+  components: {
+    Navbar,
+  }
+}
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 body{
   background-color: #d3d3d3;
 }
 #app {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Arial",serif;
   margin-bottom: 60px;
 }
 section{
@@ -23,5 +31,8 @@ section{
 }
 h1{
   color: #565656;
+}
+section{
+  padding: 1rem;
 }
 </style>

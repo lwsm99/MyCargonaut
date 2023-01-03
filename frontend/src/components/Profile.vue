@@ -1,4 +1,4 @@
-<template>
+npm rtun<template>
     <v-container id="main-container" align="center">
         <v-card class="profile-container" rounded="4" color="whitesmoke">
             <v-row justify="center" align="center">
