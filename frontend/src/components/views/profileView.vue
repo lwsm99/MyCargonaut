@@ -4,7 +4,10 @@
 
 <script>
 export default {
-  name: "profileView"
+  name: "profileView",
+  created () {
+    document.title = "Mein Profil";
+  }
 }
 </script>
 

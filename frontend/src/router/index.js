@@ -1,20 +1,20 @@
 import {createRouter, createWebHistory} from "vue-router";
 
-import home from "@/components/views/homeView"
-import profileView from "@/components/views/profileView";
-import trackingView from "@/components/views/trackingView";
-import myVehicelView from "@/components/views/myVehicelView";
-import offerListView from "@/components/views/offerListView";
-import createOfferView from "@/components/views/createOfferView";
+import home from "@/components/Home"
+import profile from "@/components/Profile";
+import tracking from "@/components/Tracking";
+import offers from "@/components/Offers";
+import login from "@/components/Login";
+import register from "@/components/Register";
 
 
 const routes =[
     {path: "/", component: home},
-    {path: "/profile", component: profileView},
-    {path: "/tracking", component: trackingView},
-    {path: "/myVehicels", component: myVehicelView},
-    {path: "/offers", component: offerListView},
-    {path: "/createoffer", component: createOfferView},
+    {path: "/profile", component: profile},
+    {path: "/tracking", component: tracking},
+    {path: "/offers", component: offers},
+    {path: "/login", component: login},
+    {path: "/register", component: register},
 ]
 const router = createRouter({
     history: createWebHistory(),

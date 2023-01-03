@@ -8,12 +8,7 @@
 
 </template>
 
-<script>
-export default {
-  // eslint-disable-next-line
-  name: "navbar",
-
-}
+<script setup>
 </script>
 
 <style scoped>

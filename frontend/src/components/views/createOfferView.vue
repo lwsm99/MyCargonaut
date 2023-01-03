@@ -4,7 +4,10 @@
 
 <script>
 export default {
-  name: "createOfferView"
+  name: "createOfferView",
+  created () {
+    document.title = "Anlegen";
+  }
 }
 </script>
 
